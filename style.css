@@ -25,3 +25,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+.task span.completed {
+    text-decoration: line-through;
+    color: #888;
+}
