@@ -31,3 +31,24 @@ body {
     text-decoration: line-through;
     color: #888;
 }
+
+/* Adicione estas regras no final do arquivo style.css */
+.task {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+}
+
+.task:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
